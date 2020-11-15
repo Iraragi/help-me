@@ -8,7 +8,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '60=l3j9wj6-nm!fcv0w6jzq!^hesn%+835eyex2$i)pm-leel-'
+SECRET_KEY = 'g9ca7a1lf%aqd7t!wkg*=n47#=ade#fap$)iy()tyo^)^!4%04'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -25,7 +25,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'main'
+    'main',
 ]
 
 MIDDLEWARE = [
@@ -38,7 +38,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'list.urls'
+ROOT_URLCONF = 'sinobi.urls'
 
 TEMPLATES = [
     {
@@ -56,7 +56,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'list.wsgi.application'
+WSGI_APPLICATION = 'sinobi.wsgi.application'
 
 
 # Database
